@@ -14,6 +14,10 @@ RUN git config --global user.email "minegishirei@gmail.com"
 RUN git config --global user.name "minegishirei"
 RUN git config --global credential.helper store
 
+# bash settings
+RUN cat ./myalias.sh > ~/.bashrc
+
+
 CMD ["sh"]
 
 
