@@ -1,4 +1,5 @@
 
+shopt -s expand_aliases
 alias ggit="git add . && git commit -m \"save\" && git push"
 alias cp='cp -i'
 alias egrep='egrep --color=auto'
