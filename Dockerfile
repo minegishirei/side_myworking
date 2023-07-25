@@ -20,7 +20,7 @@ RUN git config --global credential.helper store
 RUN cat /myworking/myalias.sh > ~/.bashrc
 RUN ./clone.sh
 RUN ./myalias.sh
-
+RUN set -o vi
 
 CMD ["fish"]
 
