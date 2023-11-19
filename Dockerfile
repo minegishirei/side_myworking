@@ -9,7 +9,7 @@ RUN pacman -S fish  --noconfirm
 RUN pacman -S git --noconfirm
 RUN git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
 
-COPY ./myworking /myworking
+COPY ./myworking ./myworking
 
 # personal settings
 RUN git config --global user.email "minegishirei@gmail.com"
@@ -20,7 +20,7 @@ RUN git config --global credential.helper store
 RUN cat /myworking/myalias.sh > ~/.bashrc
 RUN set -o vi
 
-CMD ["bash"]
+ENTRYPOINT ~/myworking/entrypoint.sh
 
 
 
