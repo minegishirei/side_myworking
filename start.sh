@@ -1,1 +1,1 @@
-docker-compose run myworking fish
+docker-compose run myworking bash
