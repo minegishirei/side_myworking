@@ -1,6 +1,17 @@
 FROM archlinux
 
-USER mine
+# add user mine
+ARG USERNAME=mine
+ARG GROUPNAME=mine
+ARG UID=1000
+ARG GID=1000
+ARG PASSWORD=mine
+RUN groupadd -g $GID $GROUPNAME && \
+    useradd -m -s /bin/bash -u $UID -g $GID -G sudo $USERNAME && \
+    echo $USERNAME:$PASSWORD | chpasswd && \
+    echo "$USERNAME   ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
+USER $USERNAME
+WORKDIR /home/$USERNAME/
 
 RUN pacman -Syy  --noconfirm
 RUN pacman -Syyu  --noconfirm
