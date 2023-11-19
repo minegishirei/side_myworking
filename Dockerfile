@@ -11,4 +11,4 @@ USER $USERNAME
 WORKDIR /home/$USERNAME/
 COPY ./home /home/$USERNAME/
 
-ENTRYPOINT .entrypoint.sh
+ENTRYPOINT ./entrypoint.sh
