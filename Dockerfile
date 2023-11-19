@@ -1,5 +1,7 @@
 FROM archlinux
 
+USER mine
+
 RUN pacman -Syy  --noconfirm
 RUN pacman -Syyu  --noconfirm
 RUN pacman -S neovim  --noconfirm
