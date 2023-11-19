@@ -17,7 +17,6 @@ RUN git config --global user.name "minegishirei"
 RUN git config --global credential.helper store
 
 # bash settings
-RUN cat /myworking/myalias.sh > ~/.bashrc
 RUN set -o vi
 
 ENTRYPOINT ~/myworking/entrypoint.sh
