@@ -1,4 +1,4 @@
 FROM ubuntu
 
-RUN apt install git -y
-RUN apt install vi -y
+RUN apt-get install git -y
+RUN apt-get install vi -y
