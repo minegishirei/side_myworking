@@ -10,5 +10,3 @@ RUN groupadd -g $GID $GROUPNAME && \
 USER $USERNAME
 WORKDIR /home/$USERNAME/
 COPY ./home /home/$USERNAME/
-
-ENTRYPOINT ./entrypoint.sh
