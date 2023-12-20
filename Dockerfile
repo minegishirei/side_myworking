@@ -1,8 +1,13 @@
 FROM ubuntu
 
+# working dir
 WORKDIR /root
-RUN git config --global user.email "minegishirei@gmail.com"
-RUN git config --global user.name "minegishirei"
+
+# install tool
 RUN apt update -y
 RUN apt install git -y
 RUN apt install vim -y
+
+# git config
+RUN git config --global user.email "minegishirei@gmail.com"
+RUN git config --global user.name "minegishirei"
