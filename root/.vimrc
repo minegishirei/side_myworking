@@ -8,6 +8,6 @@ set enc=utf-8
 inoremap <silent> jj <ESC>
 
 " プラグイン追加
-call plug#begin()
+call plug#begin('~/vimfiles/plugged')
 Plug 'preservevim/NERDTree'
 call plug#end()
