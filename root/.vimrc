@@ -13,7 +13,7 @@ Plugin 'scrooloose/nerdtree'
 " vscode likeなカラーテーマに変更する
 Plugin 'tomasiser/vim-code-dark'
 call vundle#end()
-
+colorscheme codedark
 
 
 
@@ -42,4 +42,3 @@ map <Space>o :NERDTreeToggle<CR>
 
 set t_Co=256
 set t_ut=
-colorscheme codedark
