@@ -35,3 +35,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'tomasiser/vim-code-dark'
 call vundle#end()
 filetype plugin indent on
+
+
+
+colorscheme codedark
