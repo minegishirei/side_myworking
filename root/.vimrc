@@ -17,7 +17,7 @@ Plug 'tomasiser/vim-code-dark'
 call plug#end()
 
 
-
+let g:airline_theme = 'codedark'
 
 let g:airline#extensions#tabline#enabled = 1
 "" vim-airline
