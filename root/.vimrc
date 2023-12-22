@@ -8,10 +8,15 @@ Plugin 'VundleVim/Vundle.vim'
 " gitの機能を使う
 Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-fugitive'
+
 " ファイルツリーを表示する
 Plugin 'scrooloose/nerdtree'
+
 " vscode likeなカラーテーマに変更する
+Plugin 'tomasiser/vim-code-dark'
+
 call vundle#end()
+
 colorscheme codedark
 
 

@@ -15,4 +15,3 @@ RUN git config --global user.name "minegishirei"
 
 # vim プラグインインストール
 RUN git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-RUN git clone https://github.com/tomasiser/vim-code-dark.git ~/.vim/bundle/vim-code-dark.git
