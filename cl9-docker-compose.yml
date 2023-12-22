@@ -1,0 +1,12 @@
+
+version: "3.3"
+
+services:
+  myworking:
+    container_name: myworking
+    build:
+      ./
+    volumes:
+      - ./root/.vimrc:/root/.vimrc
+      - ./root/.bashrc:/root/.bashrc
+      - ./code:/code
