@@ -15,4 +15,3 @@ RUN git config --global user.name "minegishirei"
 
 # vim プラグインインストール
 RUN git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-RUN vim +PluginInstall +qall
