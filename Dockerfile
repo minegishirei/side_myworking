@@ -7,6 +7,7 @@ WORKDIR /root
 RUN apt update -y
 RUN apt install git -y
 RUN apt install vim -y
+RUN apt install -y curl
 
 # git config
 RUN git config --global user.email "minegishirei@gmail.com"
