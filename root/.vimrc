@@ -7,7 +7,10 @@ set enc=utf-8
 " jjでESC可能
 inoremap <silent> jj <ESC>
 
-
+set <S-h> 10h
+set <S-j> 5j
+set <S-k> 10k
+set <S-l> 5l
 
 
 
