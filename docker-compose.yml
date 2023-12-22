@@ -10,4 +10,3 @@ services:
       - ./root/.vimrc:/root/.vimrc
       - ./root/.bashrc:/root/.bashrc
       - ./code:/code
-    platform: linux/amd64
