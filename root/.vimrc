@@ -7,15 +7,15 @@ set enc=utf-8
 " jjでESC可能
 inoremap <silent> jj <ESC>
 
-inoremap <S-h> 10hzz
-inoremap <S-j> 5jzz
-inoremap <S-k> 10kzz
-inoremap <S-l> 5lzz
+map <S-h> 10hzz
+map <S-j> 5jzz
+map <S-k> 10kzz
+map <S-l> 5lzz
 
-inoremap h hzz
-inoremap j jzz
-inoremap k kzz
-inoremap l lzz
+map h hzz
+map j jzz
+map k kzz
+map l lzz
 
 set nocompatible
 filetype off
