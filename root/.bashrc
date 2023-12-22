@@ -7,4 +7,11 @@ vim +'PlugInstall --sync' +qa
 echo "" >> ~/.vimrc
 echo "colorscheme codedark" >> ~/.vimrc
 
-#clear
+
+echo $MODE
+if [ $MODE -eq "PERSONAL" ]; then
+    echo "numA と numB は等しい"
+    source /code/personal.sh
+else
+    echo "numA　と numB は等しくない"
+fi
