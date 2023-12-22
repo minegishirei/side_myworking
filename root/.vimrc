@@ -11,9 +11,8 @@ Plugin 'tpope/vim-fugitive'
 " ファイルツリーを表示する
 Plugin 'scrooloose/nerdtree'
 " vscode likeなカラーテーマに変更する
-Plugin 'tomasiser/vim-code-dark'
 call vundle#end()
-colorscheme darkblue
+colorscheme codedark
 
 
 
