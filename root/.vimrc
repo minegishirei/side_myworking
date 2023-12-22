@@ -21,5 +21,6 @@ Plugin 'VundleVim/Vundle.vim'
 " Plugin '[Github Author]/[Github repo]' の形式で記入
 Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-fugitive'
+Plugin 'scrooloose/nerdtree'
 call vundle#end()
 filetype plugin indent on
