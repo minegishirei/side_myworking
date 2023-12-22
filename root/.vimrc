@@ -17,6 +17,8 @@ map j jzz
 map k kzz
 map l lzz
 
+map <S-o> :NERDTreeToggle<CR>
+
 set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
