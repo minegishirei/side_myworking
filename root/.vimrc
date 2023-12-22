@@ -17,7 +17,7 @@ map j jzz
 map k kzz
 map l lzz
 
-map <S-o> :NERDTreeToggle<CR>
+map <Space>o :NERDTreeToggle<CR>
 
 set nocompatible
 filetype off
