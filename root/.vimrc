@@ -1,25 +1,33 @@
-" 以下vimプラグイン
-set nocompatible
-filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
+call plug#begin()
 
-" gitの機能を使う
-Plugin 'airblade/vim-gitgutter'
-Plugin 'tpope/vim-fugitive'
+" ここにインストールしたいプラグインを列挙する
+" Plug 'hoge/huga'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
-" ファイルツリーを表示する
-Plugin 'scrooloose/nerdtree'
-
-" vscode likeなカラーテーマに変更する
-Plugin 'tomasiser/vim-code-dark'
-
-call vundle#end()
-
-colorscheme codedark
+call plug#end()
 
 
+let g:airline#extensions#tabline#enabled = 1
+"" vim-airline
+" ステータスラインに表示する項目を変更する
+let g:airline#extensions#default#layout = [
+  \ [ 'a', 'b', 'c' ],
+  \ ['z']
+  \ ]
+let g:airline_section_c = '%t %M'
+let g:airline_section_z = get(g:, 'airline_linecolumn_prefix', '').'%3l:%-2v'
+" 変更がなければdiffの行数を表示しない
+let g:airline#extensions#hunks#non_zero_only = 1 
+
+" タブラインの表示を変更する
+let g:airline#extensions#tabline#fnamemod = ':t'
+let g:airline#extensions#tabline#show_buffers = 1
+let g:airline#extensions#tabline#show_splits = 0
+let g:airline#extensions#tabline#show_tabs = 1
+let g:airline#extensions#tabline#show_tab_nr = 0
+let g:airline#extensions#tabline#show_tab_type = 1
+let g:airline#extensions#tabline#show_close_button = 0
 
 set number
 " スワップファイルを作成しない
