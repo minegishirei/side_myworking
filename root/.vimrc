@@ -17,7 +17,6 @@ Plug 'tomasiser/vim-code-dark'
 call plug#end()
 
 " ここでエラーがでる
-colorscheme codedark
 
 let g:airline#extensions#tabline#enabled = 1
 "" vim-airline
