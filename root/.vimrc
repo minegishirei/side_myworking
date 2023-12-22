@@ -32,7 +32,8 @@ Plugin 'tpope/vim-fugitive'
 " ファイルツリーを表示する
 Plugin 'scrooloose/nerdtree'
 " vscode likeなカラーテーマに変更する
-Plugin 'tomasiser/vim-code-dark'
+Plugin 'jonathanfilip/vim-lucius'
+
 call vundle#end()
 filetype plugin indent on
 
