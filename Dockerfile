@@ -1,7 +1,7 @@
 FROM ubuntu
 
 # working dir
-WORKDIR /root
+WORKDIR /code
 
 # install tool
 RUN apt update -y
