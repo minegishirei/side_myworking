@@ -11,3 +11,7 @@ RUN apt install vim -y
 # git config
 RUN git config --global user.email "minegishirei@gmail.com"
 RUN git config --global user.name "minegishirei"
+
+# vim プラグインインストール
+RUN curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
