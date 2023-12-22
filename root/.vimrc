@@ -1,3 +1,22 @@
+" 以下vimプラグイン
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+
+" gitの機能を使う
+Plugin 'airblade/vim-gitgutter'
+Plugin 'tpope/vim-fugitive'
+" ファイルツリーを表示する
+Plugin 'scrooloose/nerdtree'
+" vscode likeなカラーテーマに変更する
+Plugin 'tomasiser/vim-code-dark'
+call vundle#end()
+
+
+
+
 set number
 " スワップファイルを作成しない
 set noswapfile
@@ -19,25 +38,7 @@ map l lzz
 
 map <Space>o :NERDTreeToggle<CR>
 
-" 以下vimプラグイン
-set nocompatible
-filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
 
-" gitの機能を使う
-Plugin 'airblade/vim-gitgutter'
-Plugin 'tpope/vim-fugitive'
-" ファイルツリーを表示する
-Plugin 'scrooloose/nerdtree'
-" vscode likeなカラーテーマに変更する
-Plugin 'tomasiser/vim-code-dark'
-
-call vundle#end()
-
-
-syntax enable
 
 set t_Co=256
 set t_ut=
