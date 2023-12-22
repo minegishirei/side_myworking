@@ -13,7 +13,7 @@ Plugin 'scrooloose/nerdtree'
 " vscode likeなカラーテーマに変更する
 Plugin 'tomasiser/vim-code-dark'
 call vundle#end()
-colorscheme codedark
+colorscheme darkblue
 
 
 
