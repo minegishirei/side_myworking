@@ -5,6 +5,15 @@ call plug#begin()
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
+" gitの機能を使う
+Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-fugitive'
+
+" ファイルツリーを表示する
+Plug 'scrooloose/nerdtree'
+
+" vscode likeなカラーテーマに変更する
+Plug 'tomasiser/vim-code-dark'
 call plug#end()
 
 
