@@ -17,6 +17,8 @@ Plug 'tomasiser/vim-code-dark'
 call plug#end()
 
 
+colorscheme codedark
+
 let g:airline#extensions#tabline#enabled = 1
 "" vim-airline
 " ステータスラインに表示する項目を変更する
