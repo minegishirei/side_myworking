@@ -16,6 +16,10 @@ Plug 'scrooloose/nerdtree'
 
 " vscode likeなカラーテーマに変更する
 Plug 'tomasiser/vim-code-dark'
+
+" fの日本語か
+Plug 'juro106/ftjpn'
+
 call plug#end()
 """"""""""""""""""""""""""""""""""""""""""""
 
