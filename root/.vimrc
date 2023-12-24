@@ -16,7 +16,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'tomasiser/vim-code-dark'
 call plug#end()
 
-" ここでエラーがでる
+let NERDTreeShowHidden = 1
 
 let g:airline#extensions#tabline#enabled = 1
 "" vim-airline
