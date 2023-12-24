@@ -12,5 +12,5 @@ echo $MODE
 if [ "$MODE" = "PERSONAL" ]; then
     source /code/personal.sh
 else
-    source /code/personal.sh
+    source /code/business.sh
 fi
