@@ -20,7 +20,7 @@ Plug 'juro106/ftjpn'
 
 " マークダウンプレビュー機能
 Plug 'skanehira/preview-markdown.vim'
-g:preview_markdown_parser = glow
+let g:preview_markdown_parser = glow
 
 call plug#end()
 """"""""""""""""""""""""""""""""""""""""""""
