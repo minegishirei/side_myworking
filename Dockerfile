@@ -9,6 +9,13 @@ RUN apt install git -y
 RUN apt install vim -y
 RUN apt install -y curl
 
+# install glow
+RUN apt install -y gpg
+RUN curl -fsSL https://repo.charm.sh/apt/gpg.key | gpg --dearmor -o /etc/apt/keyrings/charm.gpg
+RUN echo "deb [signed-by=/etc/apt/keyrings/charm.gpg] https://repo.charm.sh/apt/ * *" |  tee /etc/apt/sources.list.d/charm.list
+RUN apt update
+RUN apt install glow
+
 # git config
 RUN git config --global user.email "minegishirei@gmail.com"
 RUN git config --global user.name "minegishirei"
