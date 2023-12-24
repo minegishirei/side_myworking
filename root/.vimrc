@@ -20,18 +20,7 @@ Plug 'juro106/ftjpn'
 
 " マークダウンプレビュー機能
 
-Plug 'godlygeek/tabular'
-
-Plug 'plasticboy/vim-markdown'
-
-Plug 'previm/previm'
-
-
-let g:vim_markdown_folding_disabled = 1
-
-let g:previm_enable_realtime = 1
-
-let g:previm_open_cmd = 'open -a Google\ Chrome'
+Plug 'skanehira/preview-markdown.vim'
 
 
 call plug#end()
