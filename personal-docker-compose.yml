@@ -10,5 +10,5 @@ services:
       - ./root/.vimrc:/root/.vimrc
       - ./root/.bashrc:/root/.bashrc
       - ./code:/code
-    environments:
+    environment:
       - MODE:PERSONAL
