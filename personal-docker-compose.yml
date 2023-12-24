@@ -11,4 +11,4 @@ services:
       - ./root/.bashrc:/root/.bashrc
       - ./code:/code
     environment:
-      - MODE:PERSONAL
+      - MODE=PERSONAL
