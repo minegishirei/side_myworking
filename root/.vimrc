@@ -76,6 +76,8 @@ map l lzz
 " ファイルツリー表示
 map <Space>o :NERDTreeToggle<CR>
 
+map <Space>m :PreviewMarkdown<CR>
+
 " 画面カラー変更
 set t_Co=256
 set t_ut=
