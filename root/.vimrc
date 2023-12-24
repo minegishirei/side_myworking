@@ -3,10 +3,6 @@
 """"""""""""""""""""""""""""""""""""""""""""
 call plug#begin()
 
-" Plug 'hoge/huga'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-
 " gitの機能を使う
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
@@ -16,6 +12,8 @@ Plug 'scrooloose/nerdtree'
 
 " vscode likeなカラーテーマに変更する
 Plug 'tomasiser/vim-code-dark'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 " fの日本語か
 Plug 'juro106/ftjpn'
@@ -23,11 +21,10 @@ Plug 'juro106/ftjpn'
 call plug#end()
 """"""""""""""""""""""""""""""""""""""""""""
 
-
+" 隠しファイルを表示させる
 let NERDTreeShowHidden = 1
 
 let g:airline#extensions#tabline#enabled = 1
-"" vim-airline
 " ステータスラインに表示する項目を変更する
 let g:airline#extensions#default#layout = [
   \ [ 'a', 'b', 'c' ],
@@ -35,6 +32,7 @@ let g:airline#extensions#default#layout = [
   \ ]
 let g:airline_section_c = '%t %M'
 let g:airline_section_z = get(g:, 'airline_linecolumn_prefix', '').'%3l:%-2v'
+
 " 変更がなければdiffの行数を表示しない
 let g:airline#extensions#hunks#non_zero_only = 1 
 
@@ -47,6 +45,7 @@ let g:airline#extensions#tabline#show_tab_nr = 0
 let g:airline#extensions#tabline#show_tab_type = 1
 let g:airline#extensions#tabline#show_close_button = 0
 
+" 行番号を表示
 set number
 " スワップファイルを作成しない
 set noswapfile
@@ -56,28 +55,30 @@ set enc=utf-8
 " jjでESC可能
 inoremap <silent> jj <ESC>
 
+" Shiftで大幅移動
 map <S-h> 10hzz
 map <S-j> 5jzz
 map <S-k> 10kzz
 map <S-l> 5lzz
 
+" 移動時にセンター化
 map h hzz
 map j jzz
 map k kzz
 map l lzz
 
+" ファイルツリー表示
 map <Space>o :NERDTreeToggle<CR>
 
-
-
+" 画面カラー変更
 set t_Co=256
 set t_ut=
 
-
+" 検索ハイライト化
 set hlsearch
 set expandtab
 
-
+" fの日本語化
 let g:ftjpn_key_list = [
     \ ['.', '。', '．'],
     \ [',', '、', '，'],
