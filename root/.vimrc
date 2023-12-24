@@ -18,6 +18,9 @@ Plug 'vim-airline/vim-airline-themes'
 " fの日本語か
 Plug 'juro106/ftjpn'
 
+" マークダウンプレビュー機能
+Plug 'skanehira/preview-markdown.vim'
+
 call plug#end()
 """"""""""""""""""""""""""""""""""""""""""""
 
