@@ -19,7 +19,8 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'juro106/ftjpn'
 
 " マークダウンプレビュー機能
-Plug 'skanehira/preview-markdown.vim'
+Plug 'tyru/open-browser.vim'
+Plug 'kannokanno/previm'
 
 call plug#end()
 """"""""""""""""""""""""""""""""""""""""""""
