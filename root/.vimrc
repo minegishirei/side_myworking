@@ -19,8 +19,20 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'juro106/ftjpn'
 
 " マークダウンプレビュー機能
-Plug 'tyru/open-browser.vim'
-Plug 'kannokanno/previm'
+
+Plug 'godlygeek/tabular'
+
+Plug 'plasticboy/vim-markdown'
+
+Plug 'previm/previm'
+
+
+let g:vim_markdown_folding_disabled = 1
+
+let g:previm_enable_realtime = 1
+
+let g:previm_open_cmd = 'open -a Google\ Chrome'
+
 
 call plug#end()
 """"""""""""""""""""""""""""""""""""""""""""
