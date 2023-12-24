@@ -9,3 +9,8 @@ echo "colorscheme codedark" >> ~/.vimrc
 
 
 echo $MODE
+if [ $MODE -eq PERSONAL ]; then
+    echo "numA と numB は等しい"
+else
+    echo "numA　と numB は等しくない"
+fi
