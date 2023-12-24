@@ -1,5 +1,7 @@
 call plug#begin()
 
+
+""""""""""""""""""""""""""""""""""""""""""""
 " ここにインストールしたいプラグインを列挙する
 " Plug 'hoge/huga'
 Plug 'vim-airline/vim-airline'
@@ -15,6 +17,8 @@ Plug 'scrooloose/nerdtree'
 " vscode likeなカラーテーマに変更する
 Plug 'tomasiser/vim-code-dark'
 call plug#end()
+""""""""""""""""""""""""""""""""""""""""""""
+
 
 let NERDTreeShowHidden = 1
 
