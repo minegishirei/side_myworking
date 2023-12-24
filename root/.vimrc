@@ -1,8 +1,8 @@
+
+" ここにインストールしたいプラグインを列挙する
+""""""""""""""""""""""""""""""""""""""""""""
 call plug#begin()
 
-
-""""""""""""""""""""""""""""""""""""""""""""
-" ここにインストールしたいプラグインを列挙する
 " Plug 'hoge/huga'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
