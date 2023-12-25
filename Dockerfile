@@ -13,6 +13,9 @@ ENV TZ=Asia/Tokyo
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 RUN apt install awscli -y
 
+RUN apt install python3-pip -y
+RUN pip install git-remote-codecommit
+
 # install glow
 RUN apt install -y gpg
 RUN curl -fsSL https://repo.charm.sh/apt/gpg.key | gpg --dearmor -o /etc/apt/keyrings/charm.gpg
