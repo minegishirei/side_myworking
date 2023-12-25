@@ -1,1 +1,1 @@
-git clone https://git-codecommit.ap-northeast-1.amazonaws.com/v1/repos/jbck-backend-src
+git clone codecommit::ap-northeast-1://jbck-backend-src
