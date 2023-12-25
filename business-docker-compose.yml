@@ -10,3 +10,4 @@ services:
       - ./root/.vimrc:/root/.vimrc
       - ./root/.bashrc:/root/.bashrc
       - ./code:/code
+      - ~/.aws/:/root/.aws/
