@@ -8,17 +8,14 @@ RUN apt update -y
 RUN apt install git -y
 RUN apt install vim -y
 RUN apt install curl -y 
-RUN apt install awscli -y
 
 RUN apt-get update -y && \
-    DEBIAN_FRONTEND=noninteractive TZ=Asia/Tokyo apt-get install -y tzdata && \
+    DEBIAN_FRONTEND=noninteractive TZ=Asia/Tokyo apt-get install -y awscli && \
     ln -fs /usr/share/zoneinfo/$TZ /etc/localtime && \
-    dpkg-reconfigure --frontend noninteractive tzdata && \
+    dpkg-reconfigure --frontend noninteractive awscli && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*RUN ln -sf /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
-RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-RUN unzip awscliv2.zip
-RUN ./aws/install
+
 
 # install glow
 RUN apt install -y gpg
