@@ -9,13 +9,9 @@ RUN apt install git -y
 RUN apt install vim -y
 RUN apt install curl -y 
 
-RUN apt-get update -y && \
-    DEBIAN_FRONTEND=noninteractive TZ=Asia/Tokyo apt-get install -y awscli && \
-    ln -fs /usr/share/zoneinfo/$TZ /etc/localtime && \
-    dpkg-reconfigure --frontend noninteractive awscli && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/*RUN ln -sf /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
-
+ENV TZ=Asia/Tokyo
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+RUN apt install awscli -y
 
 # install glow
 RUN apt install -y gpg
