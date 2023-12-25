@@ -10,7 +10,7 @@ RUN apt install vim -y
 RUN apt install curl -y 
 RUN apt install awscli -y
 
-RUN apt-get update && \
+RUN apt-get update -y && \
     DEBIAN_FRONTEND=noninteractive TZ=Asia/Tokyo apt-get install -y tzdata && \
     ln -fs /usr/share/zoneinfo/$TZ /etc/localtime && \
     dpkg-reconfigure --frontend noninteractive tzdata && \
