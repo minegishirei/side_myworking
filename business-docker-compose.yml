@@ -12,6 +12,6 @@ services:
       - ./code:/code
       - ~/.aws/:/root/.aws/
     environment:
-      - MODE=PERSONAL
+      - MODE=BUSINESS
       - AWS_DEFAULT_REGION=ap-northeast-1
       - AWS_DEFAULT_OUTPUT=json
