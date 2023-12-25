@@ -15,3 +15,4 @@ services:
       - MODE=BUSINESS
       - AWS_DEFAULT_REGION=ap-northeast-1
       - AWS_DEFAULT_OUTPUT=json
+      - TZ=Asia/Tokyo

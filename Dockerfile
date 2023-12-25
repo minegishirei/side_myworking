@@ -10,6 +10,7 @@ RUN apt install vim -y
 RUN apt install curl -y 
 RUN apt install awscli -y
 
+RUN ln -sf /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
 RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 RUN unzip awscliv2.zip
 RUN ./aws/install
