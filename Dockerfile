@@ -7,7 +7,8 @@ WORKDIR /code
 RUN apt update -y
 RUN apt install git -y
 RUN apt install vim -y
-RUN apt install -y curl
+RUN apt install curl -y 
+RUN apt install awscli -y
 
 # install glow
 RUN apt install -y gpg
