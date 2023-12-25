@@ -10,6 +10,10 @@ RUN apt install vim -y
 RUN apt install curl -y 
 RUN apt install awscli -y
 
+RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+RUN unzip awscliv2.zip
+RUN ./aws/install
+
 # install glow
 RUN apt install -y gpg
 RUN curl -fsSL https://repo.charm.sh/apt/gpg.key | gpg --dearmor -o /etc/apt/keyrings/charm.gpg
