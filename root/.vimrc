@@ -87,7 +87,7 @@ set hlsearch
 set expandtab
 
 " クリップボードからのコピー有効か
-set clipboard=unnamedplus
+set clipboard+=unnamedplus
 
 " fの日本語化
 let g:ftjpn_key_list = [
