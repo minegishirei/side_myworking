@@ -8,11 +8,10 @@ RUN apt update -y
 RUN apt install git -y
 RUN apt install vim -y
 RUN apt install curl -y 
-#RUN apt install vim-athena -y
 
-#ENV TZ=Asia/Tokyo
-#RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
-#RUN apt install awscli -y
+ENV TZ=Asia/Tokyo
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+RUN apt install awscli -y
 
 RUN apt install python3-pip -y
 RUN pip install git-remote-codecommit
@@ -23,6 +22,8 @@ RUN curl -fsSL https://repo.charm.sh/apt/gpg.key | gpg --dearmor -o /etc/apt/key
 RUN echo "deb [signed-by=/etc/apt/keyrings/charm.gpg] https://repo.charm.sh/apt/ * *" |  tee /etc/apt/sources.list.d/charm.list
 RUN apt update
 RUN apt install glow
+
+RUN apt install vim-athena -y
 
 # git config
 RUN git config --global user.email "minegishirei@gmail.com"
