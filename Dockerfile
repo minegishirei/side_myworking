@@ -10,9 +10,9 @@ RUN apt install vim -y
 RUN apt install curl -y 
 RUN apt install vim-athena -y
 
-ENV TZ=Asia/Tokyo
-RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
-RUN apt install awscli -y
+#ENV TZ=Asia/Tokyo
+#RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+#RUN apt install awscli -y
 
 RUN apt install python3-pip -y
 RUN pip install git-remote-codecommit
