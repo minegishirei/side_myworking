@@ -36,7 +36,7 @@ RUN curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubuserconte
 RUN git clone https://github.com/tomasiser/vim-code-dark.git ~/.vim/bundle/vim-code-dark.git
 
 
-RUN locale-gen ja_JP.UTF-8
 RUN apt install language-pack-ja-base language-pack-ja -y
+RUN locale-gen ja_JP.UTF-8
 ENV LANG=ja_JP.UTF-8
 
