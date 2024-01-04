@@ -8,7 +8,7 @@ RUN apt update -y
 RUN apt install git -y
 RUN apt install vim -y
 RUN apt install curl -y 
-RUN apt install vim-athena -y
+#RUN apt install vim-athena -y
 
 #ENV TZ=Asia/Tokyo
 #RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
