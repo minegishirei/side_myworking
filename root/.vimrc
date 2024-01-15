@@ -24,6 +24,8 @@ let g:preview_markdown_parser = 'glow'
 
 call plug#end()
 """"""""""""""""""""""""""""""""""""""""""""
+set fileformat=unix
+
 
 " 隠しファイルを表示させる
 let NERDTreeShowHidden = 1
