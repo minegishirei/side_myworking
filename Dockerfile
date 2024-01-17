@@ -40,3 +40,7 @@ RUN apt install language-pack-ja-base language-pack-ja -y
 RUN locale-gen ja_JP.UTF-8
 ENV LANG=ja_JP.UTF-8
 
+
+
+# 一度入力したパスワードを覚えおいてくれる機能
+RUN git config credential.helper store
