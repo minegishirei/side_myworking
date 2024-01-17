@@ -43,4 +43,4 @@ ENV LANG=ja_JP.UTF-8
 
 
 # 一度入力したパスワードを覚えおいてくれる機能
-RUN git config credential.helper store
+RUN git config --global credential.helper store
