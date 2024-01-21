@@ -48,3 +48,4 @@ RUN git config --global credential.helper store
 
 
 RUN apt install xsel -y
+RUN apt install xeyes
