@@ -16,6 +16,9 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'joker1007/vim-markdown-quote-syntax'
 
+Plug 'ryanoasis/vim-devicons'
+Plug 'ryanoasis/nerd-fonts'
+
 " fの日本語か
 Plug 'juro106/ftjpn'
 
