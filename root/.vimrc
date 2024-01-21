@@ -23,9 +23,6 @@ Plug 'juro106/ftjpn'
 Plug 'skanehira/preview-markdown.vim'
 let g:preview_markdown_parser = 'glow'
 
-"Plug 'ryanoasis/vim-devicons'
-Plug 'ryanoasis/nerd-fonts'
-
 call plug#end()
 """"""""""""""""""""""""""""""""""""""""""""
 set fileformat=unix
