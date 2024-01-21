@@ -16,7 +16,6 @@ ENV TZ=Asia/Tokyo
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 RUN apt install awscli -y
 RUN apt install xsel -y
-RUN apt install xeyes -y
 RUN apt install git -y
 RUN apt install vim -y
 RUN apt install curl -y 
