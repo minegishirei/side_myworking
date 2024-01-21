@@ -6,6 +6,7 @@ services:
     container_name: myworking
     build:
       ./
+    tty: true
     volumes:
       - ./root/.vimrc:/root/.vimrc
       - ./root/.bashrc:/root/.bashrc
