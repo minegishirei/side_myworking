@@ -90,6 +90,7 @@ set hlsearch
 set expandtab
 
 " クリップボードからのコピー有効か
+set clipboard&
 set clipboard+=unnamedplus
 
 " fの日本語化
