@@ -14,6 +14,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'tomasiser/vim-code-dark'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'joker1007/vim-markdown-quote-syntax'
 
 " fの日本語か
 Plug 'juro106/ftjpn'
