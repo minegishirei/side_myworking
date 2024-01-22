@@ -7,6 +7,7 @@ services:
     build:
       ./
     tty: true
+    platform: linux/x86_64
     volumes:
       - ./root/.vimrc:/root/.vimrc
       - ./root/.bashrc:/root/.bashrc
