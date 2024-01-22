@@ -10,7 +10,7 @@ services:
     volumes:
       - ./root/.vimrc:/root/.vimrc
       - ./root/.bashrc:/root/.bashrc
-      #- ./root/.config/:/root/.config/
+      - ./root/.config/nvim/init.lua:/root/.config/init.lua
       - ./code:/code
     environment:
       - MODE=PERSONAL
