@@ -1,6 +1,6 @@
 FROM archlinux
 
-WORKDIR ~
+WORKDIR /code
 RUN pacman -Syy  --noconfirm
 RUN pacman -Syyu  --noconfirm
 RUN pacman -S neovim  --noconfirm
