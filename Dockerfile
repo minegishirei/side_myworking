@@ -44,7 +44,6 @@ RUN git clone https://github.com/tomasiser/vim-code-dark.git ~/.vim/bundle/vim-c
 
 
 RUN apt install dos2unix -y
-RUN dos2unix ~/.vimrc
 
 
 
