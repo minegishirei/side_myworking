@@ -1,8 +1,13 @@
 
 
+vim.keymap.set('n', '<S-h>', '10hzz')
+vim.keymap.set('n', '<S-j>', '10jzz')
+vim.keymap.set('n', '<S-k>', '10kzz')
+vim.keymap.set('n', '<S-l>', '10lzz')
 vim.keymap.set('n', 'h', 'hzz')
 vim.keymap.set('n', 'j', 'jzz')
-
+vim.keymap.set('n', 'k', 'kzz')
+vim.keymap.set('n', 'l', 'lzz')
 -- set s key to Window moving.
 vim.keymap.set('n', 's', '<NOP>')
 -- set s+hjkl move to other window
