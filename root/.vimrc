@@ -1,27 +1,27 @@
 
 set fileformat=unix
 
-" ‚±‚±‚ÉƒCƒ“ƒXƒg[ƒ‹‚µ‚½‚¢ƒvƒ‰ƒOƒCƒ“‚ğ—ñ‹“‚·‚é
+" ã“ã“ã«ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã—ãŸã„ãƒ—ãƒ©ã‚°ã‚¤ãƒ³ã‚’åˆ—æŒ™ã™ã‚‹
 """"""""""""""""""""""""""""""""""""""""""""
 call plug#begin()
 
-" git‚Ì‹@”\‚ğg‚¤
+" gitã®æ©Ÿèƒ½ã‚’ä½¿ã†
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 
-" ƒtƒ@ƒCƒ‹ƒcƒŠ[‚ğ•\¦‚·‚é
+" ãƒ•ã‚¡ã‚¤ãƒ«ãƒ„ãƒªãƒ¼ã‚’è¡¨ç¤ºã™ã‚‹
 Plug 'scrooloose/nerdtree'
 
-" vscode like‚ÈƒJƒ‰[ƒe[ƒ}‚É•ÏX‚·‚é
+" vscode likeãªã‚«ãƒ©ãƒ¼ãƒ†ãƒ¼ãƒã«å¤‰æ›´ã™ã‚‹
 Plug 'tomasiser/vim-code-dark'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'joker1007/vim-markdown-quote-syntax'
 
-" f‚Ì“ú–{Œê‚©
+" fã®æ—¥æœ¬èªã‹
 Plug 'juro106/ftjpn'
 
-" ƒ}[ƒNƒ_ƒEƒ“ƒvƒŒƒrƒ…[‹@”\
+" ãƒãƒ¼ã‚¯ãƒ€ã‚¦ãƒ³ãƒ—ãƒ¬ãƒ“ãƒ¥ãƒ¼æ©Ÿèƒ½
 Plug 'skanehira/preview-markdown.vim'
 let g:preview_markdown_parser = 'glow'
 
@@ -30,11 +30,11 @@ call plug#end()
 set fileformat=unix
 
 
-" ‰B‚µƒtƒ@ƒCƒ‹‚ğ•\¦‚³‚¹‚é
+" éš ã—ãƒ•ã‚¡ã‚¤ãƒ«ã‚’è¡¨ç¤ºã•ã›ã‚‹
 let NERDTreeShowHidden = 1
 
 let g:airline#extensions#tabline#enabled = 1
-" ƒXƒe[ƒ^ƒXƒ‰ƒCƒ“‚É•\¦‚·‚é€–Ú‚ğ•ÏX‚·‚é
+" ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹ãƒ©ã‚¤ãƒ³ã«è¡¨ç¤ºã™ã‚‹é …ç›®ã‚’å¤‰æ›´ã™ã‚‹
 let g:airline#extensions#default#layout = [
   \ [ 'a', 'b', 'c' ],
   \ ['z']
@@ -42,10 +42,10 @@ let g:airline#extensions#default#layout = [
 let g:airline_section_c = '%t %M'
 let g:airline_section_z = get(g:, 'airline_linecolumn_prefix', '').'%3l:%-2v'
 
-" •ÏX‚ª‚È‚¯‚ê‚Îdiff‚Ìs”‚ğ•\¦‚µ‚È‚¢
+" å¤‰æ›´ãŒãªã‘ã‚Œã°diffã®è¡Œæ•°ã‚’è¡¨ç¤ºã—ãªã„
 let g:airline#extensions#hunks#non_zero_only = 1 
 
-" ƒ^ƒuƒ‰ƒCƒ“‚Ì•\¦‚ğ•ÏX‚·‚é
+" ã‚¿ãƒ–ãƒ©ã‚¤ãƒ³ã®è¡¨ç¤ºã‚’å¤‰æ›´ã™ã‚‹
 let g:airline#extensions#tabline#fnamemod = ':t'
 let g:airline#extensions#tabline#show_buffers = 1
 let g:airline#extensions#tabline#show_splits = 0
@@ -54,62 +54,62 @@ let g:airline#extensions#tabline#show_tab_nr = 0
 let g:airline#extensions#tabline#show_tab_type = 1
 let g:airline#extensions#tabline#show_close_button = 0
 
-" tab‚Ìspace‚Í4‚Â
+" tabã®spaceã¯4ã¤
 :set ts=4
-" s”Ô†‚ğ•\¦
+" è¡Œç•ªå·ã‚’è¡¨ç¤º
 set number
-" ƒXƒƒbƒvƒtƒ@ƒCƒ‹‚ğì¬‚µ‚È‚¢
+" ã‚¹ãƒ¯ãƒƒãƒ—ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ä½œæˆã—ãªã„
 set noswapfile
-" “ú–{Œê‘Î‰
+" æ—¥æœ¬èªå¯¾å¿œ
 set enc=utf-8
 
-" jj‚ÅESC‰Â”\
+" jjã§ESCå¯èƒ½
 inoremap <silent> jj <ESC>
 
-" Shift‚Å‘å•ˆÚ“®
+" Shiftã§å¤§å¹…ç§»å‹•
 map <S-h> 10hzz
 map <S-j> 5jzz
 map <S-k> 10kzz
 map <S-l> 5lzz
 
-" ˆÚ“®‚ÉƒZƒ“ƒ^[‰»
+" ç§»å‹•æ™‚ã«ã‚»ãƒ³ã‚¿ãƒ¼åŒ–
 map h hzz
 map j jzz
 map k kzz
 map l lzz
 
-" ƒtƒ@ƒCƒ‹ƒcƒŠ[•\¦
+" ãƒ•ã‚¡ã‚¤ãƒ«ãƒ„ãƒªãƒ¼è¡¨ç¤º
 map <Space>o :NERDTreeToggle<CR>
 
 map <Space>m :PreviewMarkdown right<CR>
 
-" ‰æ–ÊƒJƒ‰[•ÏX
+" ç”»é¢ã‚«ãƒ©ãƒ¼å¤‰æ›´
 set t_Co=256
 set t_ut=
 
-" ŒŸõƒnƒCƒ‰ƒCƒg‰»
+" æ¤œç´¢ãƒã‚¤ãƒ©ã‚¤ãƒˆåŒ–
 set hlsearch
 set expandtab
 
-" ƒNƒŠƒbƒvƒ{[ƒh‚©‚ç‚ÌƒRƒs[—LŒø‚©
+" ã‚¯ãƒªãƒƒãƒ—ãƒœãƒ¼ãƒ‰ã‹ã‚‰ã®ã‚³ãƒ”ãƒ¼æœ‰åŠ¹ã‹
 set clipboard&
 set clipboard+=unnamedplus
 
-" f‚Ì“ú–{Œê‰»
+" fã®æ—¥æœ¬èªåŒ–
 let g:ftjpn_key_list = [
-    \ ['.', 'B', 'D'],
-    \ [',', 'A', 'C'],
-    \ ['h', '‚Í'],
-    \ ['g', '‚ª', '‚¬'],
-    \ ['n', '‚Ì', '‚É', '‚È', '‚Ê', '‚Ë'],
-    \ ['w', '‚ğ'],
+    \ ['.', 'ã€‚', 'ï¼'],
+    \ [',', 'ã€', 'ï¼Œ'],
+    \ ['h', 'ã¯'],
+    \ ['g', 'ãŒ', 'ã'],
+    \ ['n', 'ã®', 'ã«', 'ãª', 'ã¬', 'ã­'],
+    \ ['w', 'ã‚’'],
     \
-    \ ['t', '‚Æ'],
-    \ ['d', '‚Å'],
-    \ ['i', '‰½'],
-    \ ['c', 'i', 'j'],
-    \ ['k', 'u', 'v', 'w', 'x', 'y', 'z'],
-    \ ['!', 'I'],
-    \ ['?', 'H'],
-    \ [';', '!', '?', '^', '$', '#', ':', '&', '%', '~', '*', 'I', 'H'],
+    \ ['t', 'ã¨'],
+    \ ['d', 'ã§'],
+    \ ['i', 'ä½•'],
+    \ ['c', 'ï¼ˆ', 'ï¼‰'],
+    \ ['k', 'ã€Œ', 'ã€', 'ã€', 'ã€', 'ã€', 'ã€‘'],
+    \ ['!', 'ï¼'],
+    \ ['?', 'ï¼Ÿ'],
+    \ [';', '!', '?', '^', '$', '#', ':', '&', '%', '~', '*', 'ï¼', 'ï¼Ÿ'],
     \ ]
