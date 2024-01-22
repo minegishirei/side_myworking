@@ -43,7 +43,8 @@ RUN curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubuserconte
 RUN git clone https://github.com/tomasiser/vim-code-dark.git ~/.vim/bundle/vim-code-dark.git
 
 
-
+RUN apt install dos2unix -y
+RUN dos2unix .vimrc
 
 
 
