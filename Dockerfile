@@ -8,7 +8,7 @@ RUN pacman -S fish  --noconfirm
 
 RUN pacman -S git --noconfirm
 RUN git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
-RUN cat init.lua >> ~/.config/nvim/init.lua
+RUN cp init.lua  ~/.config/nvim/
 
 # personal settings
 RUN git config --global user.email "minegishirei@gmail.com"
