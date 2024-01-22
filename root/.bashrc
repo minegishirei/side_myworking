@@ -5,4 +5,6 @@ alias s="source"
 #echo "" >> ~/.vimrc
 #echo "colorscheme codedark" >> ~/.vimrc
 cat ~/.config/nvim/init.lua
+cat init.lua >> ~/.config/nvim/init.lua
+cat ~/.config/nvim/init.lua
 source /code/personal.sh
