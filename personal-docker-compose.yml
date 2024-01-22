@@ -13,6 +13,5 @@ services:
       #- ./root/.config/:/root/.config/
       - ./code:/code
     environment:
-      - DISPLAY=$DISPLAY
       - MODE=PERSONAL
       
