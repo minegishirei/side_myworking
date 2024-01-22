@@ -7,6 +7,7 @@ echo "" >> ~/.vimrc
 echo "colorscheme codedark" >> ~/.vimrc
 
 
+source /code/personal.sh
 echo $MODE
 if [ "$MODE" = "PERSONAL" ]; then
     source /code/personal.sh
