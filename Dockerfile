@@ -16,6 +16,7 @@ RUN git config --global credential.helper store
 
 # bash settings
 RUN set -o vi
+RUN nvim
 
 
 
