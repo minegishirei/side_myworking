@@ -1,38 +1,27 @@
-
-set fileformat=unix
-
 " ここにインストールしたいプラグインを列挙する
 """"""""""""""""""""""""""""""""""""""""""""
 call plug#begin()
-
 " gitの機能を使う
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
-
 " ファイルツリーを表示する
 Plug 'scrooloose/nerdtree'
-
 " vscode likeなカラーテーマに変更する
 Plug 'tomasiser/vim-code-dark'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'joker1007/vim-markdown-quote-syntax'
-
 " fの日本語か
 Plug 'juro106/ftjpn'
 
 " マークダウンプレビュー機能
 Plug 'skanehira/preview-markdown.vim'
 let g:preview_markdown_parser = 'glow'
-
 call plug#end()
 """"""""""""""""""""""""""""""""""""""""""""
 set fileformat=unix
-
-
 " 隠しファイルを表示させる
 let NERDTreeShowHidden = 1
-
 let g:airline#extensions#tabline#enabled = 1
 " ステータスラインに表示する項目を変更する
 let g:airline#extensions#default#layout = [
