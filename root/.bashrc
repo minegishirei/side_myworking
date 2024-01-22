@@ -5,7 +5,7 @@ alias s="source"
 vim +'PlugInstall --sync' +qa
 echo "" >> ~/.vimrc
 echo "colorscheme codedark" >> ~/.vimrc
-
+cat init.lua  ~/.config/nvim/init.lua
 
 source /code/personal.sh
 echo $MODE
