@@ -2,8 +2,7 @@
 set -o vi
 alias ggit="git add . && git commit -m 'save' && git push"
 alias s="source"
-
-dos2unix ~/.vimrc
+vim +'PlugInstall --sync' +qa
 echo "" >> ~/.vimrc
 echo "colorscheme codedark" >> ~/.vimrc
 
