@@ -26,16 +26,6 @@ require("astronvim.utils").conditional_func(astronvim.user_opts("polish", nil, f
 vim.keymap.set('n', 'h', 'hzz')
 vim.keymap.set('n', 'j', 'jzz')
 
-
-map <S-h> 10hzz
-map <S-j> 5jzz
-map <S-k> 10kzz
-map <S-l> 5lzz
-map h hzz
-map j jzz
-map k kzz
-map l lzz
-
 -- set s key to Window moving.
 vim.keymap.set('n', 's', '<NOP>')
 -- set s+hjkl move to other window
