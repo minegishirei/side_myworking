@@ -10,6 +10,8 @@ echo "colorscheme codedark" >> ~/.vimrc
 echo $MODE
 if [ "$MODE" = "PERSONAL" ]; then
     source /code/personal.sh
-else
+fi
+
+if [ "$MODE" = "BUSINESS"]
     source /code/business.sh
 fi
