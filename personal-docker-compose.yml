@@ -10,7 +10,7 @@ services:
     volumes:
       - ./root/.vimrc:/root/.vimrc
       - ./root/.bashrc:/root/.bashrc
-      - ./root/.config/:/root/.config/
+      #- ./root/.config/:/root/.config/
       - ./code:/code
     environment:
       - DISPLAY=$DISPLAY
