@@ -19,5 +19,9 @@ RUN set -o vi
 RUN nvim -c "qa!"
 
 
+RUN pacman -S thefuck   --noconfirm
+RUN eval $(thefuck --alias) # これは.bashrcに入れたほうが良いかもしれない。
+
+
 
 
