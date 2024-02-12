@@ -5,6 +5,6 @@ alias s="source"
 #echo "" >> ~/.vimrc
 #echo "colorscheme codedark" >> ~/.vimrc
 cat init.lua >> ~/.config/nvim/init.lua #need comment
-source /code/personal.sh
-eval $(thefuck --alias)
+source /code/personal.sh #need comment
+eval $(thefuck --alias) #need comment
 
