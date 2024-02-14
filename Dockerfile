@@ -19,6 +19,10 @@ RUN set -o vi
 RUN nvim -c "qa!"
 
 
+# unknown error
+RUN pacman -Syy && pacman -Syu --noconfirm
+RUN pacman -S $package --noconfirm
+
 RUN pacman -S thefuck   --noconfirm
 RUN pacman -S exa --noconfirm
 
