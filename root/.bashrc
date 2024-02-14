@@ -7,4 +7,5 @@ alias s="source"
 cat init.lua >> ~/.config/nvim/init.lua #need comment
 source /code/personal.sh #need comment
 eval $(thefuck --alias) #need comment
+alias ls="exa"
 
