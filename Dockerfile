@@ -20,7 +20,8 @@ RUN nvim -c "qa!"
 
 
 RUN pacman -S thefuck   --noconfirm
-RUN eval $(thefuck --alias) # これは.bashrcに入れたほうが良いかもしれない。
+RUN pacman -S exa --noconfirm
+
 
 
 
