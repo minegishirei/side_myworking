@@ -20,7 +20,8 @@ RUN nvim -c "qa!"
 
 
 # unknown error
-RUN pacman -Syy && pacman -Syu --noconfirm
+RUN pacman -Syy --noconfirm
+RUN pacman -Syu --noconfirm
 RUN pacman -S $package --noconfirm
 
 RUN pacman -S thefuck   --noconfirm
