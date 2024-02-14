@@ -23,7 +23,6 @@ RUN nvim -c "qa!"
 
 
 RUN pacman -Syy --noconfirm && pacman -Syu --noconfirm
-RUN pacman -S $package --noconfirm
 
 RUN pacman -S thefuck   --noconfirm
 RUN pacman -S exa --noconfirm
