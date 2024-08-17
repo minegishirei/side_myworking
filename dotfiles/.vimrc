@@ -24,3 +24,20 @@ nnoremap <C-f> :NERDTreeFind<CR>
 
 " Start Vim with NERDTree Open
 autocmd VimEnter * NERDTree
+
+" tab is 4 space
+:set ts=4
+" column number
+set number
+set noswapfile
+set enc=utf-8
+inoremap <silent> jj <ESC>
+map <S-h> 10hzz
+map <S-j> 5jzz
+map <S-k> 10kzz
+map <S-l> 5lzz
+map h hzz
+map j jzz
+map k kzz
+map l lzz
+map <Space>o :NERDTreeToggle<CR>
