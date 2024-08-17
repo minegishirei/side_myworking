@@ -10,8 +10,6 @@ Plug 'tomasiser/vim-code-dark'
 
 "" fern.vim
 Plug 'lambdalisue/fern.vim'
-" diffを表示する
-Plug 'lambdalisue/fern-git-status.vim'
 " アイコンを表示する
 Plug 'lambdalisue/nerdfont.vim'
 Plug 'lambdalisue/fern-renderer-nerdfont.vim'
