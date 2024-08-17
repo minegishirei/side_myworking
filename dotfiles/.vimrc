@@ -24,3 +24,5 @@ nnoremap <C-f> :NERDTreeFind<CR>
 
 
 
+:NERDTree
+
