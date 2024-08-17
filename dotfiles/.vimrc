@@ -18,18 +18,6 @@ Plug 'lambdalisue/fern-renderer-nerdfont.vim'
 " アイコンに色をつける
 Plug 'lambdalisue/glyph-palette.vim'
 
-"" git
-" diffを表示する
-Plug 'airblade/vim-gitgutter'
-" gitコマンドを使う
-Plug 'tpope/vim-fugitive'
-" GitHubを開く
-Plug 'tpope/vim-rhubarb'
-
-"" fzf
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
-
 call plug#end()
 
 
