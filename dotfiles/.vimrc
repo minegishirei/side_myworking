@@ -12,8 +12,7 @@ Plug 'tomasiser/vim-code-dark'
 call plug#end()
 colorscheme codedark
 
-
-"" File Tree 2
+"" NERDTree
 call plug#begin()
 Plug 'preservim/nerdtree'
 call plug#end()
@@ -23,5 +22,5 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 
 
-
+" Start Vim with NERDTree Open
 autocmd VimEnter * NERDTree
