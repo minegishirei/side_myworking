@@ -1,6 +1,8 @@
 
 # security tools
 brew install sqlmap
+brew install gobuster
+
 
 # vim plugin manager
 ## color schema

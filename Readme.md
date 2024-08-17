@@ -13,7 +13,7 @@ git clone https://github.com/minegishirei/side_myworking.git
 ## インストーラー起動
 
 ```sh
-source ~/side_myworking/dotfiles/install.sh
+source ~/side_myworking/install.sh
 ```
 
 
