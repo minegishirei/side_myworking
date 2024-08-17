@@ -12,18 +12,15 @@ Plug 'tomasiser/vim-code-dark'
 call plug#end()
 colorscheme codedark
 
-"" File Tree
-"" call plug#begin()
-"" Plug 'lambdalisue/fern.vim'
-"" call plug#end()
-"" nnoremap :E :Fern . -reveal=% -drawer -toggle -width=40<CR>
-"" nnoremap <C-n> :Fern . -reveal=% -drawer -toggle -width=40<CR>
 
 "" File Tree 2
 call plug#begin()
 Plug 'preservim/nerdtree'
 call plug#end()
-nnoremap <C-n> :NERDTree
+nnoremap :E :NERDTree<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
 
 
 
