@@ -40,4 +40,4 @@ map h hzz
 map j jzz
 map k kzz
 map l lzz
-map <Space>o :NERDTreeToggle<CR>
+map <Space>o :NERDTreeToggle<CR>:NERDTreeToggle<CR>
