@@ -20,7 +20,6 @@ nnoremap :E :NERDTree<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
-map <S-h> :NERDTreeToggle<CR>:NERDTreeToggle<CR>
 map <Space>o :NERDTreeToggle<CR>:NERDTreeToggle<CR>
 "" Show dotfile
 let NERDTreeShowHidden=1
@@ -36,7 +35,8 @@ set number
 set noswapfile
 set enc=utf-8
 inoremap <silent> jj <ESC>
-map <S-h> 10hzz
+"map <S-h> 10hzz
+map <S-h> :NERDTreeToggle<CR>:NERDTreeToggle<CR>
 map <S-j> 5jzz
 map <S-k> 10kzz
 map <S-l> 5lzz
