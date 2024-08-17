@@ -10,12 +10,20 @@ brew install git
 git clone https://github.com/minegishirei/side_myworking.git
 ```
 
+## インストーラー起動
+
+```sh
+source ~/side_myworking/dotfiles/install.sh
+```
+
+
 ## save
 
 ```sh
 ln -s ~/side_myworking/dotfiles/.vimrc ~/.vimrc
 ln -s ~/side_myworking/dotfiles/.zprofile ~/.zshrc
 ```
+
 
 
 
