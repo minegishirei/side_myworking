@@ -20,7 +20,7 @@ nnoremap :E :NERDTree<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
-nnoremap <S-h> :NERDTreeToggle<CR>:NERDTreeToggle<CR>
+noremap <S-h> :NERDTreeToggle<CR>:NERDTreeToggle<CR>
 map <Space>o :NERDTreeToggle<CR>:NERDTreeToggle<CR>
 "" Show dotfile
 let NERDTreeShowHidden=1
