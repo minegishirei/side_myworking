@@ -24,5 +24,4 @@ nnoremap <C-f> :NERDTreeFind<CR>
 
 
 
-:NERDTree
-
+autocmd VimEnter * NERDTree
