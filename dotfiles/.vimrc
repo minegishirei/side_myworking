@@ -1,26 +1,4 @@
 
-"" options
-set number  " 行番号を表示する
-set encoding=UTF-8
-set backspace=indent,eol,start  " バックスペースを有効にする
-set termwinsize=12x0  " ターミナルのサイズを指定
-set updatetime=250  " 反映時間を短くする(デフォルトは4000ms)
-
-" VSCodeライクなカラースキームにする
-colorscheme codedark
-
-
-"" キーマップ
-" タブを作成する
-nnoremap tc :tabnew<CR>
-" 前のタブを開く
-nnoremap tp :tabp<CR>
-" 次のタブを開く
-nnoremap tn :tabn<CR>
-" タブを閉じる
-nnoremap tx :tabclose<CR>
-
-
 "" plugin
 call plug#begin()
 
@@ -53,6 +31,28 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
 call plug#end()
+
+
+"" options
+set number  " 行番号を表示する
+set encoding=UTF-8
+set backspace=indent,eol,start  " バックスペースを有効にする
+set termwinsize=12x0  " ターミナルのサイズを指定
+set updatetime=250  " 反映時間を短くする(デフォルトは4000ms)
+
+" VSCodeライクなカラースキームにする
+colorscheme codedark
+
+"" キーマップ
+" タブを作成する
+nnoremap tc :tabnew<CR>
+" 前のタブを開く
+nnoremap tp :tabp<CR>
+" 次のタブを開く
+nnoremap tn :tabn<CR>
+" タブを閉じる
+nnoremap tx :tabclose<CR>
+
 
 
 "" vim-airline
