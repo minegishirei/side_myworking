@@ -21,6 +21,8 @@ nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 map <Space>o :NERDTreeToggle<CR>:NERDTreeToggle<CR>
+"" Show dotfile
+let NERDTreeShowHidden=1
 
 " Start Vim with NERDTree Open
 autocmd VimEnter * NERDTree
