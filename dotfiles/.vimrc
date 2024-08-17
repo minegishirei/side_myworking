@@ -1,3 +1,21 @@
+call plug#begin()
+" git
+Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-fugitive'
+" file tree
+Plug 'scrooloose/nerdtree'
+" vscode like
+Plug 'tomasiser/vim-code-dark'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'joker1007/vim-markdown-quote-syntax'
+" f to japanese
+Plug 'juro106/ftjpn'
+" markdown preview
+Plug 'skanehira/preview-markdown.vim'
+let g:preview_markdown_parser = 'glow'
+call plug#end()
+""""""""""""""""""""""""""""""""""""""""""""
 set fileformat=unix
 " open hidden file
 let NERDTreeShowHidden = 1
