@@ -20,13 +20,14 @@ nnoremap :E :NERDTree<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
-
+map <Space>o :NERDTreeToggle<CR>:NERDTreeToggle<CR>
 
 " Start Vim with NERDTree Open
 autocmd VimEnter * NERDTree
 
 " tab is 4 space
 :set ts=4
+
 " column number
 set number
 set noswapfile
@@ -40,4 +41,3 @@ map h hzz
 map j jzz
 map k kzz
 map l lzz
-map <Space>o :NERDTreeToggle<CR>:NERDTreeToggle<CR>
