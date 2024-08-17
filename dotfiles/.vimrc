@@ -1,7 +1,7 @@
 call plug#begin()
 " git
-Plug 'airblade/vim-gitgutter'
-Plug 'tpope/vim-fugitive'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 " file tree
 Plug 'scrooloose/nerdtree'
 " vscode like
