@@ -15,3 +15,7 @@ brew install font-hack-nerd-font
 vim +'PlugInstall --sync' +qa
 
 
+# git
+brew install gh
+
+
