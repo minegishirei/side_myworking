@@ -13,9 +13,12 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 brew install font-hack-nerd-font
 ## Plugin Install
 vim +'PlugInstall --sync' +qa
+## Linter
+brew install actionlint
 
 
 # git
 brew install gh
+
 
 
