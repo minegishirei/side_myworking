@@ -12,5 +12,9 @@ Plug 'tomasiser/vim-code-dark'
 call plug#end()
 colorscheme codedark
 
+"" File Tree
+call plug#begin()
+Plug 'lambdalisue/fern.vim'
+call plug#end()
 
 
