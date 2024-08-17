@@ -14,6 +14,7 @@ git clone https://github.com/minegishirei/side_myworking.git
 
 ```sh
 ln -s ~/side_myworking/dotfiles/.vimrc ~/.vimrc
+ln -s ~/side_myworking/dotfiles/.zprofile ~/.zprofile
 ```
 
 
