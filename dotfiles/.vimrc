@@ -45,4 +45,4 @@ map j jzz
 map k kzz
 map l lzz
 set clipboard&
-set clipboard+=unnamedplus
+set clipboard=unnamedplus
