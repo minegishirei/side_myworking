@@ -26,7 +26,7 @@ let NERDTreeShowHidden=1
 
 "" Linter
 call plug#begin()
-Plug 'hankei6km/ale-linter-actionlint'
+Plug 'Plugin 'hankei6km/ale-linter-actionlint.vim'
 call plug#end()
 
 
