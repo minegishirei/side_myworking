@@ -15,6 +15,8 @@ colorscheme codedark
 "" NERDTree
 call plug#begin()
 Plug 'preservim/nerdtree'
+Plug 'ryanoasis/vim-devicons'
+Plug 'ryanoasis/nerd-fonts'
 call plug#end()
 nnoremap :E :NERDTree<CR>
 nnoremap <C-n> :NERDTree<CR>
