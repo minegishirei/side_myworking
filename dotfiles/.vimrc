@@ -17,6 +17,9 @@ call plug#begin()
 Plug 'svermeulen/vim-subversive'
 call plug#end()
 
+call plug#begin()
+Plug 'thinca/vim-visualstar'
+call plug#end()
 
 "" NERDTree
 call plug#begin()
@@ -53,5 +56,6 @@ map h hzz
 map j jzz
 map k kzz
 map l lzz
+
 
 
