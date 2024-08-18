@@ -24,18 +24,21 @@ map <Space>o :NERDTreeToggle<CR>:NERDTreeToggle<CR>
 "" Show dotfile
 let NERDTreeShowHidden=1
 
-" Start Vim with NERDTree Open
+"" Start Vim with NERDTree Open
 autocmd VimEnter * NERDTree
 
-" tab is 4 space
+"" tab is 4 space
 :set ts=4
 
-" column number
+"" clipboard
+set clipboard+=unnamed
+
+"" column number
 set number
 set noswapfile
 set enc=utf-8
 inoremap <silent> jj <ESC>
-"map <S-h> 10hzz
+""map <S-h> 10hzz
 map <S-h> :NERDTreeToggle<CR>:NERDTreeToggle<CR>
 map <S-j> 5jzz
 map <S-k> 10kzz
@@ -44,5 +47,3 @@ map h hzz
 map j jzz
 map k kzz
 map l lzz
-set clipboard&
-set clipboard=unnamedplus
