@@ -26,7 +26,7 @@ let NERDTreeShowHidden=1
 
 "" Linter
 call plug#begin()
-Plugin 'hankei6km/ale-linter-actionlint'
+Plug 'hankei6km/ale-linter-actionlint'
 call plug#end()
 
 
