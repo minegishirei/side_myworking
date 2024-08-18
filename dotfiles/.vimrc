@@ -44,3 +44,5 @@ map h hzz
 map j jzz
 map k kzz
 map l lzz
+set clipboard&
+set clipboard+=unnamedplus
