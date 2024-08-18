@@ -48,11 +48,3 @@ map j jzz
 map k kzz
 map l lzz
 
-call plug#begin()
-Plug 'svermeulen/vim-subversive'
-call plug#end()
-
-"" s for substitute
-nmap s <plug>(SubversiveSubstitute)
-nmap ss <plug>(SubversiveSubstituteLine)
-nmap S <plug>(SubversiveSubstituteToEndOfLine)
