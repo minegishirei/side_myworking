@@ -29,4 +29,6 @@ brew install actionlint
 brew install gh
 
 
+brew install awscli
+
 
