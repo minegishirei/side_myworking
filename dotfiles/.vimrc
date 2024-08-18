@@ -24,12 +24,6 @@ map <Space>o :NERDTreeToggle<CR>:NERDTreeToggle<CR>
 "" Show dotfile
 let NERDTreeShowHidden=1
 
-"" Linter
-call plug#begin()
-Plug 'hankei6km/ale-linter-actionlint.vim'
-call plug#end()
-
-
 " Start Vim with NERDTree Open
 autocmd VimEnter * NERDTree
 
