@@ -20,10 +20,7 @@ call plug#end()
 
 "" NERDTree
 call plug#begin()
-"" Plug 'preservim/nerdtree'
-Plug 'scrooloose/nerdtree'
-Plug 'ryanoasis/vim-devicons'
-Plug 'ryanoasis/nerd-fonts'
+Plug 'preservim/nerdtree'
 call plug#end()
 nnoremap :E :NERDTree<CR>
 nnoremap <C-n> :NERDTree<CR>
