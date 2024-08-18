@@ -22,6 +22,10 @@ Plug 'thinca/vim-visualstar'
 call plug#end()
 
 call plug#begin()
+Plug 'mhinz/vim-spectre'
+call plug#end()
+
+call plug#begin()
 Plug 'justinmk/vim-sneak'
 call plug#end()
 
