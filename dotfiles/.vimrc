@@ -21,6 +21,10 @@ call plug#begin()
 Plug 'thinca/vim-visualstar'
 call plug#end()
 
+call plug#begin()
+Plug 'justinmk/vim-sneak'
+call plug#end()
+
 "" NERDTree
 call plug#begin()
 Plug 'preservim/nerdtree'
