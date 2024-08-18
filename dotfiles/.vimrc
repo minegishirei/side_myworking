@@ -14,7 +14,8 @@ colorscheme codedark
 
 "" NERDTree
 call plug#begin()
-Plug 'preservim/nerdtree'
+"" Plug 'preservim/nerdtree'
+Plug 'scrooloose/nerdtree'
 Plug 'ryanoasis/vim-devicons'
 Plug 'ryanoasis/nerd-fonts'
 call plug#end()
