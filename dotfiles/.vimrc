@@ -51,3 +51,7 @@ map j jzz
 map k kzz
 map l lzz
 
+call plug#begin()
+Plug 'svermeulen/vim-subversive'
+call plug#end()
+
