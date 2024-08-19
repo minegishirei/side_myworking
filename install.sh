@@ -7,7 +7,7 @@ ln -s ~/side_myworking/dotfiles/settings.json "$HOME/Library/Application Support
 brew install --cask visual-studio-code
 ## Install Extensions
 code --install-extension vscodevim.vim
-
+code --install-extension hediet.vscode-drawio
 
 # vim plugin manager
 ## color schema
