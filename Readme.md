@@ -24,10 +24,12 @@ rm "$HOME/Library/Application Support/Code/User/settings.json"
 ln -s ~/side_myworking/dotfiles/settings.json "$HOME/Library/Application Support/Code/User/settings.json"
 ```
 
-Vimとかクソだわもうやめる。
+## to windows
 
-明日から.vscodeに変えるわ。
+```ps1
 
+New-Item -Path "${HOME}¥side_myworking¥dotfiles¥settings.json" -ItemType SymbolicLink -Target "${HOME}¥myworking¥.vscode¥settings.json"
+```
 
 
 
