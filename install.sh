@@ -5,6 +5,9 @@ ln -s ~/side_myworking/dotfiles/settings.json "$HOME/Library/Application Support
 
 # for editor
 brew install --cask visual-studio-code
+## Install Extensions
+code --install-extension vscodevim.vim
+
 
 # vim plugin manager
 ## color schema
