@@ -38,3 +38,6 @@ brew install awscli
 # for security tools
 brew install sqlmap
 brew install gobuster
+
+# ggit
+alias ggit="git add . && git commit -m 'save' && git push"
