@@ -1,4 +1,8 @@
 
+ln -s ~/side_myworking/dotfiles/.zprofile ~/.zshrc
+rm "$HOME/Library/Application Support/Code/User/settings.json"
+ln -s ~/side_myworking/dotfiles/settings.json "$HOME/Library/Application Support/Code/User/settings.json"
+
 # for editor
 brew install --cask visual-studio-code
 

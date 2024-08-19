@@ -22,6 +22,7 @@ source ~/side_myworking/install.sh
 ln -s ~/side_myworking/dotfiles/.zprofile ~/.zshrc
 rm "$HOME/Library/Application Support/Code/User/settings.json"
 ln -s ~/side_myworking/dotfiles/settings.json "$HOME/Library/Application Support/Code/User/settings.json"
+
 ```
 
 ## to windows
@@ -30,8 +31,8 @@ cat ${HOME}¥side_myworking¥dotfiles¥settings.json
 
 
 ```ps1
-cp ${HOME}\side_myworking\dotfiles\settings.json {HOME}\myworking\.vscode\settings.json
-New-Item -Path ${HOME}\side_myworking\dotfiles\settings.json -ItemType SymbolicLink -Target ${HOME}\myworking\.vscode\settings.json
+cp ${HOME}\side_myworking\dotfiles\settings.json ${HOME}\myworking\.vscode\settings.json
+
 ```
 
 
