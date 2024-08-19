@@ -31,7 +31,7 @@ cat ${HOME}¥side_myworking¥dotfiles¥settings.json
 
 ```ps1
 
-New-Item -Path "${HOME}\side_myworking\dotfiles\settings.json" -ItemType SymbolicLink -Target "${HOME}¥side_myworking¥.vscode¥settings.json"
+New-Item -Path ${HOME}\side_myworking\dotfiles\settings.json -ItemType SymbolicLink -Target ${HOME}\side_myworking\.vscode\settings.json
 ```
 
 
