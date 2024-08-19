@@ -16,14 +16,19 @@ git clone https://github.com/minegishirei/side_myworking.git
 source ~/side_myworking/install.sh
 ```
 
-
 ## save
 
 ```sh
 ln -s ~/side_myworking/dotfiles/.vimrc ~/.vimrc
 ln -s ~/side_myworking/dotfiles/.zprofile ~/.zshrc
 ln -s ~/side_myworking/dotfiles/plugin/spectre.vim ~/.vim/plugin/spectre.vim
+ln -s ~/side_myworking/dotfiles/settings.json ~/.config/Code/User/settings.json
+
 ```
+
+Vimとかクソだわもうやめる。
+
+明日から.vscodeに変えるわ。
 
 
 
