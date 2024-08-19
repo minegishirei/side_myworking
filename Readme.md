@@ -22,6 +22,7 @@ source ~/side_myworking/install.sh
 ```sh
 ln -s ~/side_myworking/dotfiles/.vimrc ~/.vimrc
 ln -s ~/side_myworking/dotfiles/.zprofile ~/.zshrc
+ln -s ~/side_myworking/dotfiles/plugin/spectre.vim ~/.vim/plugin/spectre.vim
 ```
 
 
