@@ -12,20 +12,6 @@ Plug 'tomasiser/vim-code-dark'
 call plug#end()
 colorscheme codedark
 
-"" Start
-call plug#begin()
-Plug 'svermeulen/vim-subversive'
-call plug#end()
-
-call plug#begin()
-Plug 'thinca/vim-visualstar'
-call plug#end()
-
-
-call plug#begin()
-Plug 'justinmk/vim-sneak'
-call plug#end()
-
 "" NERDTree
 call plug#begin()
 Plug 'preservim/nerdtree'
@@ -61,5 +47,4 @@ map h hzz
 map j jzz
 map k kzz
 map l lzz
-
 
