@@ -9,6 +9,9 @@ brew install --cask visual-studio-code
 code --install-extension vscodevim.vim
 code --install-extension hediet.vscode-drawio
 
+# install docker
+brew install --cask docker
+
 # vim plugin manager
 ## color schema
 #git clone https://github.com/tomasiser/vim-code-dark.git ~/.vim/bundle/vim-code-dark.git
