@@ -34,7 +34,6 @@ install_if_missing "fswatch"
 
 ## for editor
 install_if_missing visual-studio-code --cask
-### Install Extensions
 code --install-extension vscodevim.vim
 code --install-extension hediet.vscode-drawio
 
