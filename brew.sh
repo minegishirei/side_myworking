@@ -35,6 +35,10 @@ install_if_missing "git"
 install_if_missing "gh"
 # eza のインストール
 install_if_missing "eza"
+
+install_if_missing "eza"
+install_if_missing "eza"
+
 ## for editor
 install_if_missing visual-studio-code --cask
 ### Install Extensions
