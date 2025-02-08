@@ -19,3 +19,4 @@ alias tfps='terraform -chdir=environments/dev plan'
 alias tfsa='terraform -chdir=environments/dev apply'
 
 
+export TF_CLI_ARGS_plan="--parallelism=30"
