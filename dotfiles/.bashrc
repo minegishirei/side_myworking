@@ -1,3 +1,4 @@
+#!/bin/bash
 
 set -o vi
 alias ls="eza" #need comment
