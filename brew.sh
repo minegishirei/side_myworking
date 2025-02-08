@@ -37,7 +37,7 @@ install_if_missing "gh"
 install_if_missing "eza"
 
 install_if_missing "tmux"
-install_if_missing "eza"
+install_if_missing ""
 
 ## for editor
 install_if_missing visual-studio-code --cask
