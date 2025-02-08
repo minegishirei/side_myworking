@@ -40,3 +40,5 @@ code --install-extension hediet.vscode-drawio
 
 install_if_missing "ccat"
 
+install_if_missing "fswatch"
+
