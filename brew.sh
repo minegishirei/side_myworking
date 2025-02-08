@@ -29,16 +29,15 @@ install_if_missing "gh"
 install_if_missing "eza"
 install_if_missing "tmux"
 install_if_missing "fzf"
+install_if_missing "ccat"
+install_if_missing "fswatch"
+
 
 ## for editor
 install_if_missing visual-studio-code --cask
 ### Install Extensions
 code --install-extension vscodevim.vim
 code --install-extension hediet.vscode-drawio
-
-install_if_missing "ccat"
-
-install_if_missing "fswatch"
 
 # パッケージインストール後、aliasを登録
 source ~/side_myworking/dotfiles/.bashrc
