@@ -1,46 +1,22 @@
+#!/bin/bash
 
-ln -s ~/side_myworking/dotfiles/.zprofile ~/.zshrc
-rm "$HOME/Library/Application Support/Code/User/settings.json"
-ln -s ~/side_myworking/dotfiles/settings.json "$HOME/Library/Application Support/Code/User/settings.json"
+# go to home dir
+cd ~
 
-# for editor
-brew install --cask visual-studio-code
-## Install Extensions
-code --install-extension vscodevim.vim
-code --install-extension hediet.vscode-drawio
+#ln -s ~/side_myworking/dotfiles/.zprofile ~/.zshrc
+#rm "$HOME/Library/Application Support/Code/User/settings.json"
+#ln -s ~/side_myworking/dotfiles/settings.json "$HOME/Library/Application Support/Code/User/settings.json"
 
-# install docker
-brew install --cask docker
+# 対象となる .bashrc ファイルのパス
+BASHRC_FILE="$HOME/.bashrc"
+# 追加したい設定内容
+FILE_TO_INCLUDE="~/side_myworking/dotfiles/.bashrc"
 
-# vim plugin manager
-## color schema
-#git clone https://github.com/tomasiser/vim-code-dark.git ~/.vim/bundle/vim-code-dark.git
-#ln -s ~/.vim/bundle/vim-code-dark.git/colors/codedark.vim ~/.vim/colors/codedark.vim
-## Nerd Font Install
-#curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-#brew install font-hack-nerd-font
-## Plugin Install
-#vim +'PlugInstall --sync' +qa
-## Linter
-#brew install actionlint
-#mv ~/.config/nvim ~/.config/nvim.bak
-#mv ~/.local/share/nvim ~/.local/share/nvim.bak
-#mv ~/.local/state/nvim ~/.local/state/nvim.bak
-#mv ~/.cache/nvim ~/.cache/nvim.bak
-#brew install neovim
-#git clone --depth 1 https://github.com/AstroNvim/template ~/.config/nvim
-# remove template's git connection to set up your own later
-#rm -rf ~/.config/nvim/.git
-
-# for git authentication
-brew install gh
-
-# for work
-brew install awscli
-
-# for security tools
-brew install sqlmap
-brew install gobuster
-
-# ggit
-alias ggit="git add . && git commit -m 'save' && git push"
+# .bashrcに既に #working_alreadysetup が含まれているか確認
+if ! grep -q "#working_alreadysetup" "$BASHRC_FILE"; then
+  echo "#working_alreadysetup" >> "$BASHRC_FILE"
+  echo "source $FILE_TO_INCLUDE" >> "$BASHRC_FILE"
+  echo ".bashrc に $FILE_TO_INCLUDE を追加しました。"
+else
+  echo ".bashrc には既に #working_alreadysetup が設定されています。"
+fi
