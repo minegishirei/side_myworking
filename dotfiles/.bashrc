@@ -9,10 +9,6 @@ alias iamcheck="aws cloudtrail lookup-events --lookup-attributes AttributeKey=Us
 alias autocommit="fswatch -0 . -e '\\.git.*' | xargs -0 -n 1 -I{} git commit -am 'autocommit'"
 alias autoplan="fswatch -0 . -e '\\.git.*' -i '\\.tf$' | xargs -0 -n 1 -I{} terraform plan "
 
-
-
-
-
 # Terraform alias settings
 alias tfpp='terraform -chdir=environments/prod plan'
 alias tfap='terraform -chdir=environments/prod apply'
