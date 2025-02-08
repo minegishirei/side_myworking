@@ -21,6 +21,7 @@ else
     echo "brew はすでにインストールされています。スキップします。"
 fi
 
+# install packages
 install_if_missing "awscli"
 install_if_missing "sqlmap"
 install_if_missing "gobuster"
