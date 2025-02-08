@@ -3,10 +3,6 @@
 # go to home dir
 cd ~
 
-#ln -s ~/side_myworking/dotfiles/.zprofile ~/.zshrc
-#rm "$HOME/Library/Application Support/Code/User/settings.json"
-#ln -s ~/side_myworking/dotfiles/settings.json "$HOME/Library/Application Support/Code/User/settings.json"
-
 # 対象となる .bashrc ファイルのパス
 BASHRC_FILE="$HOME/.bashrc"
 # 追加したい設定内容
