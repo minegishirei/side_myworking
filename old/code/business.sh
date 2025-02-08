@@ -1,1 +1,0 @@
-git clone codecommit::ap-northeast-1://jbck-backend-src
