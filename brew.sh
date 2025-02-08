@@ -16,6 +16,9 @@ install_if_missing() {
 if ! command -v "brew" &> /dev/null; then
     echo "brew が見つかりません。インストールを開始します..."
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    echo >> ~/.bashrc
+    echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> ~/.bashrc
+    eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 else
     echo "brew はすでにインストールされています。スキップします。"
 fi
@@ -42,3 +45,5 @@ install_if_missing "ccat"
 
 install_if_missing "fswatch"
 
+# パッケージインストール後、aliasを登録
+source ~/side_myworking/dotfiles/.bashrc
