@@ -3,6 +3,7 @@
 
 ```sh
 git clone https://github.com/minegishirei/side_myworking.git
+cd side_myworking
 ./brew.sh
 ```
 
