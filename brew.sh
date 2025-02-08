@@ -1,7 +1,5 @@
 #!/bin/bash
 
-
-
 # 関数：コマンドがインストールされているかチェック
 install_if_missing() {
   if ! brew list "$1" &> /dev/null; then
@@ -23,19 +21,12 @@ else
     echo "brew はすでにインストールされています。スキップします。"
 fi
 
-# awscli のインストール
 install_if_missing "awscli"
-# sqlmap のインストール
 install_if_missing "sqlmap"
-# gobuster のインストール
 install_if_missing "gobuster"
-# git のインストール
 install_if_missing "git"
-# gh (GitHub CLI) のインストール
 install_if_missing "gh"
-# eza のインストール
 install_if_missing "eza"
-
 install_if_missing "tmux"
 install_if_missing "fzf"
 
