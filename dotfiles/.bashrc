@@ -4,4 +4,4 @@ set -o vi
 alias ls="eza" #need comment
 alias cat="ccat" #need comment
 
-alias gacp="git add . && git commit -m test && git push"
+alias ggit="git add . && git commit -m test && git push"
