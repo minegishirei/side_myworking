@@ -1,6 +1,8 @@
 #!/bin/bash
 
+# terminal operation by vim
 set -o vi
+# set shortcuts
 alias ls="eza"
 alias cat="ccat"
 alias ggit="git add . && git commit -m test && git push"
