@@ -37,5 +37,5 @@ install_if_missing visual-studio-code --cask
 code --install-extension vscodevim.vim
 code --install-extension hediet.vscode-drawio
 
-# パッケージインストール後、aliasを登録
+# .bashrc
 source ~/side_myworking/dotfiles/.bashrc
