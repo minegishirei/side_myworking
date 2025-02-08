@@ -1,4 +1,6 @@
+
 set -o vi
-alias ggit="git add . && git commit -m 'save' && git push"
 alias ls="eza" #need comment
-alias cat="ccat"
+alias cat="ccat" #need comment
+
+alias gacp='git add . && git commit -m "update" && git push'
