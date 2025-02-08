@@ -36,7 +36,7 @@ install_if_missing "gh"
 # eza のインストール
 install_if_missing "eza"
 
-install_if_missing "eza"
+install_if_missing ""
 install_if_missing "eza"
 
 ## for editor
