@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# 関数：コマンドがインストールされているかチェック
+# check if brew
 install_if_missing() {
   if ! brew list "$1" &> /dev/null; then
     echo "$1 が見つかりません。インストールを開始します..."
