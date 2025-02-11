@@ -37,6 +37,7 @@ install_if_missing "fswatch"
 install_if_missing visual-studio-code --cask
 code --install-extension vscodevim.vim
 code --install-extension hediet.vscode-drawio
+code --install-extension 4ops.terraform
 
 # .bashrc
 source ~/side_myworking/dotfiles/.bashrc
