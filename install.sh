@@ -16,3 +16,16 @@ if ! grep -q "#working_alreadysetup" "$BASHRC_FILE"; then
 else
   echo ".bashrc には既に #working_alreadysetup が設定されています。"
 fi
+
+# MacOSであればsettings.jsonを反映させる
+if [[ "$(uname)" == "Darwin" ]]; then
+  echo "This is macOS"
+  rm  "$HOME/Library/Application Support/Code/User/settings.json"
+  ln -s  ~/side_myworking/dotfiles/settings.json "$HOME/Library/Application Support/Code/User/settings.json"
+
+  rm  "$HOME/Library/Application Support/Code/User/keybindings.json"
+  ln -s  ~/side_myworking/dotfiles/keybindings.json "$HOME/Library/Application Support/Code/User/keybindings.json"
+else
+  echo "This is not macOS"
+fi
+

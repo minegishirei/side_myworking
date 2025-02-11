@@ -17,6 +17,14 @@
   //nnoremap
   "vim.normalModeKeyBindingsNonRecursive": [
     {
+      "before" : [
+        "x"
+      ],
+      "after" : [
+        "\"_x"
+      ]
+    },
+    {
       "before": [
         "j"
       ],
