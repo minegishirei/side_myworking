@@ -13,10 +13,10 @@ alias autoplan="fswatch -0 . -e '\\.git.*' -i '\\.tf$' | xargs -0 -n 1 -I{} terr
 # Terraform alias settings
 alias tfpp='terraform -chdir=environments/prod plan'
 alias tfap='terraform -chdir=environments/prod apply'
-alias tfpd='terraform -chdir=environments/stg plan'
-alias tfad='terraform -chdir=environments/stg apply'
-alias tfps='terraform -chdir=environments/dev plan'
-alias tfsa='terraform -chdir=environments/dev apply'
+alias tfpd='terraform -chdir=environments/dev plan'
+alias tfad='terraform -chdir=environments/dev apply'
+alias tfps='terraform -chdir=environments/stg plan'
+alias tfas='terraform -chdir=environments/stg apply'
 export TF_CLI_ARGS_plan="--parallelism=1000"
 export TF_CLI_ARGS_apply="--parallelism=1000"
 

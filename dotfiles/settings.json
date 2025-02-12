@@ -3,6 +3,7 @@
   "vim.useSystemClipboard": true,
   "keyboard.layout": "com.apple.inputmethod.Korean.2SetKorean",
   "vim.leader": "<space>",
+  "vim.easymotion": true,
   "vim.insertModeKeyBindings": [
     {
       "before": [
@@ -16,6 +17,10 @@
   ],
   //nnoremap
   "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["f"],
+      "after": ["leader", "leader", "leader", "b", "d", "w"]   
+    },
     {
       "before" : [
         "x"
