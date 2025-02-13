@@ -1,5 +1,10 @@
 [{
     "key": "ctrl+k ctrl+v",
     "command": "toggleVim"
+  },
+  {
+    "key": "ctrl+[BracketLeft]",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalHasBeenCreated || terminalProcessSupported"
   }
 ]
