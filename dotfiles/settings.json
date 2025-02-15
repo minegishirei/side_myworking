@@ -18,12 +18,8 @@
   //nnoremap
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": [ "/" ],
-      "commands": ["actions.find"]
-    },
-    {
       "before": ["?"],
-      "commands": ["workbench.action.findInFiles"]
+      "commands": ["editor.action.startFindReplaceAction"]
     },
     {
       "before": ["f"],
