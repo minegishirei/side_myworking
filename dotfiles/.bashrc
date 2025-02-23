@@ -21,3 +21,5 @@ export TF_CLI_ARGS_plan="--parallelism=1000"
 export TF_CLI_ARGS_apply="--parallelism=1000"
 
 
+# bashrcのカスタマイズ
+eval "$(starship init bash)"
