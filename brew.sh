@@ -34,6 +34,9 @@ install_if_missing "ccat"
 install_if_missing "fswatch"
 install_if_missing "starship"
 install_if_missing "driftctl"
+install_if_missing "btop"
+install_if_missing "ctop"
+install_if_missing "yazi"
 
 ## for editor
 install_if_missing visual-studio-code --cask
