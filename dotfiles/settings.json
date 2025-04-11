@@ -1,4 +1,5 @@
 {
+  "chat.agent.enabled": true,
   "explorer.confirmDragAndDrop": false,
   "vim.useSystemClipboard": true,
   "keyboard.layout": "com.apple.inputmethod.Korean.2SetKorean",
