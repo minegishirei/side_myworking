@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # もし `side_myworking` が存在すれば削除
-[ -d side_myworking ] && rm -rf side_myworking
+rm -rf side_myworking
 
 # side_myworking本体をclone
 git clone https://github.com/minegishirei/side_myworking.git
