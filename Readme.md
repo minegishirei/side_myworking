@@ -2,7 +2,7 @@
 ## how to install
 
 ```sh
-
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/minegishirei/side_myworking/refs/heads/main/install.sh)"
 ```
 
 ## to windows
