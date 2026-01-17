@@ -459,5 +459,16 @@
       ]
     }
   ],
-  "hediet.vscode-drawio.theme": "atlas"
+  "hediet.vscode-drawio.theme": "atlas",
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "editor.inlineSuggest.showToolbar": "always",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  }
 }
