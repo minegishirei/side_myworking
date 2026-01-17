@@ -78,6 +78,7 @@ install_if_missing "driftctl"
 install_if_missing "btop"
 install_if_missing "ctop"
 install_if_missing "yazi"
+install_if_missing "terraform"
 install_if_missing "terraform-tui"
 
 ## for editor

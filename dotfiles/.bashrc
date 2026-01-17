@@ -24,5 +24,3 @@ export TF_CLI_ARGS_apply="--parallelism=1000"
 # bashrcのカスタマイズ
 eval "$(starship init bash)"
 
-# bashシェルを起動する
-bash
