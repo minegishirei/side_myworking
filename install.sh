@@ -80,6 +80,7 @@ install_if_missing "ctop"
 install_if_missing "yazi"
 install_if_missing "terraform"
 install_if_missing "terraform-tui"
+brew install --cask maccy
 
 ## for editor
 install_if_missing visual-studio-code --cask
