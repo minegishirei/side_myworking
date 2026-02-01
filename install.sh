@@ -81,6 +81,7 @@ install_if_missing "yazi"
 install_if_missing "terraform"
 install_if_missing "terraform-tui"
 brew install --cask maccy
+install_if_missing "localstack/tap/localstack-cli"
 
 ## for editor
 install_if_missing visual-studio-code --cask
