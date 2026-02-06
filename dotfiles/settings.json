@@ -473,5 +473,10 @@
     "yaml": false,
     "dockercompose": true,
     "python": false
-  }
+  },
+  "http.systemCertificatesNode": true,
+  "geminicodeassist.inlineSuggestions.suggestionSpeed": "Fast",
+  "editor.inlineSuggest.enabled": true,
+  "gemini.enableCodeCompletion": true,
+  "gemini.enableInlineCompletion": true
 }

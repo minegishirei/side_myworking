@@ -83,6 +83,24 @@ install_if_missing "terraform-tui"
 brew install --cask maccy
 install_if_missing "localstack/tap/localstack-cli"
 
+## install vscode extensions
+code --install-extension  4ops.terraform
+code --install-extension  bierner.markdown-mermaid
+code --install-extension  github.copilot
+code --install-extension  github.copilot-chat
+code --install-extension  google.geminicodeassist
+code --install-extension  hediet.vscode-drawio
+code --install-extension  ms-python.debugpy
+code --install-extension  ms-python.python
+code --install-extension  ms-python.vscode-pylance
+code --install-extension  ms-python.vscode-python-envs
+code --install-extension  ms-vscode-remote.remote-containers
+code --install-extension  ms-vscode.remote-explorer
+code --install-extension  ms-vscode.remote-server
+code --install-extension  sankooc.pcapviewer
+code --install-extension  vscodevim.vim
+code --install-extension  vue.volar
+
 ## for editor
 install_if_missing visual-studio-code --cask
 code --install-extension vscodevim.vim

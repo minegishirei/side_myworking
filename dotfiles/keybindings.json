@@ -6,5 +6,10 @@
     "key": "ctrl+[BracketLeft]",
     "command": "workbench.action.terminal.focusNext",
     "when": "terminalHasBeenCreated || terminalProcessSupported"
+  },
+  {
+    "key": "capslock capslock",
+    "command": "github.copilot.chat.completions.enable",
+    "when": "github.copilot.activated && github.copilot.extensionUnification.activated && !config.editor.inlineSuggest.enabled || github.copilot.activated && github.copilot.extensionUnification.activated && !github.copilot.completions.enabled"
   }
 ]
