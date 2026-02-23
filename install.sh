@@ -1,5 +1,7 @@
 #!/bin/bash
 
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
 # もし `side_myworking` が存在すれば削除
 rm -rf side_myworking
 rmdir side_myworking
