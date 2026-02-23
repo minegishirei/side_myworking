@@ -84,10 +84,9 @@ install_if_missing "driftctl"
 install_if_missing "btop"
 install_if_missing "ctop"
 install_if_missing "yazi"
-install_if_missing "terraform"
-install_if_missing "terraform-tui"
 brew install --cask maccy
 install_if_missing "localstack/tap/localstack-cli"
+install_if_missing "code"
 
 ## install vscode extensions
 code --install-extension  4ops.terraform
