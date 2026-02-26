@@ -85,6 +85,7 @@ install_if_missing "btop"
 install_if_missing "ctop"
 install_if_missing "yazi"
 brew install --cask maccy
+brew install --cask docker
 install_if_missing "localstack/tap/localstack-cli"
 install_if_missing "code"
 
