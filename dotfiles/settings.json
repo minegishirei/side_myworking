@@ -478,5 +478,6 @@
   "geminicodeassist.inlineSuggestions.suggestionSpeed": "Fast",
   "editor.inlineSuggest.enabled": true,
   "gemini.enableCodeCompletion": true,
-  "gemini.enableInlineCompletion": true
+  "gemini.enableInlineCompletion": true,
+  "hediet.vscode-drawio.resizeImages": null
 }
