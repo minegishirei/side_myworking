@@ -26,3 +26,5 @@ export TF_CLI_ARGS_apply="--parallelism=1000"
 eval "$(starship init bash)"
 
 export AWS_PAGER=""
+
+cat ~/side_myworking/dotfiles/.bashrc
