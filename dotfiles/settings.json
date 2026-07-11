@@ -466,7 +466,7 @@
   "github.copilot.nextEditSuggestions.enabled": true,
   "editor.inlineSuggest.showToolbar": "always",
   "github.copilot.enable": {
-    "*": false,
+    "*": true,
     "plaintext": false,
     "markdown": false,
     "scminput": false,

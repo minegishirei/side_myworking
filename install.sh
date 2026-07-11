@@ -83,6 +83,7 @@ install_if_missing "starship"
 install_if_missing "driftctl"
 install_if_missing "btop"
 install_if_missing "ctop"
+install_if_missing "tldr"
 install_if_missing "yazi"
 brew install --cask maccy
 brew install --cask docker

@@ -5,6 +5,7 @@ set -o vi
 # set shortcuts
 alias ls="eza"
 alias cat="ccat"
+alias man="tldr"
 alias ggit="git add . && git commit -m test && git push"
 alias iamcheck="aws cloudtrail lookup-events --lookup-attributes AttributeKey=Username,AttributeValue= --max-results 50"
 alias autocommit="fswatch -0 . -e '\\.git.*' | xargs -0 -n 1 -I{} git commit -am 'autocommit'"
